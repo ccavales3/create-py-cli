@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.DS_Store
 .Python
 build/
 develop-eggs/
@@ -90,6 +91,10 @@ ipython_config.py
 #   having no cross-platform support, pipenv may install dependencies that don't work, or not
 #   install all needed dependencies.
 #Pipfile.lock
+
+# Requirement dependencies
+dev-requirements.txt
+requirements.txt
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
